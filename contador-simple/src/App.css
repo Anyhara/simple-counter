@@ -1,0 +1,27 @@
+body {
+  background-color: rgb(0, 0, 0);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Timer {
+  background-color: black;
+  text-align: center;
+}
+
+.Clock, .Digit {
+  color: aliceblue;
+  display: inline;
+  font-size: 500%;
+  border: 2px;
+  border-style: solid;
+  border-radius: 15%;
+  padding: 10px;
+  border-color: gray;
+  background-color: rgb(32, 32, 32);
+  margin: 3px;
+  text-align: center;
+}
+
